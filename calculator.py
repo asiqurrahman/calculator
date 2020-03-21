@@ -110,3 +110,5 @@ elif decide == "2":
     print("The area of the circle is " + str(circle()))
 else:
     print("please enter 1 or 2")
+
+# fix issue where it say's none after giving the answer, likely due to mis-use of return statement
